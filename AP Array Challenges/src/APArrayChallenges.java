@@ -4,7 +4,7 @@ public class APArrayChallenges
 
 		public static void main(String[] args)
 			{
-			printDessertNums();	
+			//printDessertNums();	
 			totalOddAndEvenNums();
 			}
 		public static void printDessertNums()
@@ -29,9 +29,20 @@ public class APArrayChallenges
 		public static void totalOddAndEvenNums()
 		{
 			Scanner userInput = new Scanner(System.in);
-			System.out.println("Hello, how many favorite desserts do you have?");
-			int userNums = userInput.nextInt();
-			int[]numArray = new int [userNums];
+			System.out.println("Hello, please input 8 numbers");
+			
+			int[]numArray = new int [8];
+			for (int i = 0; i<8; i++)
+				{
+					int userNums = userInput.nextInt();
+					numArray[i] = userNums;
+					int oddNums 
+			
+			
+				}
+			
+			
+				
 		}
 
 	}
